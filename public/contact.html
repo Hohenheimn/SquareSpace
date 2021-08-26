@@ -1,0 +1,184 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Nolan and Co</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/bdd9c8af5a.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" sizes="16x16" href="https://assets.squarespace.com/universal/default-favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body class="font-poppins">
+
+  <div class="fixed bottom-5 right-5 h-16 w-60 z-40 bg-dark-gray" data-aos="fade-left">
+    <a href="#">
+      <div class="flex w-full justify-center items-center" >
+        <div class="w-3/12 flex h-full justify-center items-center">
+          <img src="images/squareLogo.png" class="w-full mt-1" alt="">
+        </div>
+        <div class="w-9/12 h-full">
+          <h1 class="text-white text-sm">Create Like This</h1>
+          <p class="text-gray-300" style="font-size: 11px;">Free Trial. Instant Access</p>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="fixed top-0 w-full bg-black z-50 transition duration-500 delay-500" id="sticky">
+    <nav class="h-15vh bg-black text-white flex transition duration-500 items-center justify-center" id="nav" data-aos="fade-down">
+      <div class="w-11/12 flex relative items-center">
+        <h1 class="laptop:text-3xl mobile2:text-2xl xs:text-2xl font-bold"><a href="index.html">Nolan & Co</a></h1>
+        <div class="absolute right-0 mobile2:flex xs:hidden">
+          <a href="our-work.html" class="text-md mr-8 transition delay-500" data-aos="fade-left">Our Work</a>
+          <a href="our-services.html" class="text-md mr-8 transition delay-500" data-aos="fade-left">Our Services</a>
+          <a href="company.html" class="text-md mr-8 transition delay-500" data-aos="fade-left">Company</a>
+          <a href="contact.html" class="text-md border-white border-b transition delay-500"  data-aos="fade-left">Contact</a>
+        </div>
+        <button class="mobile2:hidden xs:inline text-3xl absolute right-0 focus:outline-none text-gray-500 font-thin" onclick="openNav()"><i class="fas fa-bars"></i></button>
+      </div>
+    </nav>
+  </div>
+
+  <div class="w-full flex-col h-0 overflow-hidden flex justify-center items-center z-30 fixed bg-black text-4xl mb-2 text-white mobile2:hidden xs:flex" id="secondNav">
+    <a href="our-work.html">Our Work</a>
+    <a href="our-services.html">Our Services</a>
+    <a href="company.html">Company</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <div class="h-15vh bg-black"></div>
+  <!--  body -->
+  <div class="w-full bg-black flex justify-center items-center">
+    <div class="w-11/12">
+
+      <header class="h-400px flex justify-center items-center">
+        <div class="tablet:w-6/12 mobile2:w-10/12 xs:w-full">
+          <p class="tablet:text-4xl xs:text-2xl text-white font-bold" data-aos="fade-up">Please fill out the form below to request a quote for a project, inquire about a collaboration, or simply say hello.</p>
+        </div>
+      </header>
+
+      <div class="w-full flex justify-center items-center">
+        <div class="tablet:w-6/12 mobile2:w-10/12 xs:w-full">
+          <form class="w-full flex flex-wrap text-white"  data-aos="fade-up">
+
+            <div class="w-full px-2">
+              <p>Name *</p>
+            </div>
+            <div class="w-6/12 flex flex-col px-2">
+              <input type="text" class="w-full mt-1 mb-1 h-12 rounded p-2">
+              <p class="text-sm">First Name</p>
+            </div>
+            <div class="w-6/12 flex flex-col px-2">
+              <input type="text" class="w-full mt-1 mb-1 h-12 rounded p-2">
+              <p class="text-sm">Last Name</p>
+            </div>
+
+            <div class="w-full px-2 mt-10">
+              <p>Email *</p>
+            </div>
+            <div class="w-full flex flex-col px-2">
+              <input type="text" class="w-full mt-1 mb-1 h-12 rounded p-2">
+            </div>
+
+            <div class="w-full px-2 mt-10">
+              <p>Subject *</p>
+            </div>
+            <div class="w-full flex flex-col px-2">
+              <input type="text" class="w-full mt-1 mb-1 h-12 rounded p-2">
+            </div>
+
+            <div class="w-full px-2 mt-10">
+              <p>Message *</p>
+            </div>
+            <div class="w-full flex flex-col px-2">
+              <textarea name="" id="" cols="30" rows="20" class="w-full h-24 mt-1 mb-1 h-12 rounded p-2"></textarea>
+            </div>
+
+            <input type="submit" value="Submit" class="py-5 px-10 bg-white text-black font-thin mt-10 rounded-50px">
+          </form>
+        </div>
+      </div>
+
+      <div class="mt-32">
+        <img src="images/contact.jpg" alt="" data-aos="fade-up">
+      </div>
+
+      <div class="w-full flex tablet:flex-row xs:flex-col flex-wrap justify-center items-center content-around h-500px">
+
+        <div class="tablet:w-5/12 xs:w-full flex flex-col justify-center items-center text-white"  data-aos="fade-right">
+          <p class="tablet:text-2xl xs:text-lg font-bold tablet:mb-0 xs:mb-5">General</p>
+          <p class="tablet:text-4xl xs:text-2xl font-bold border-b border-white">email@example.com</p>
+        </div>
+        <div class="tablet:w-5/12 xs:w-full flex flex-col justify-center items-center text-white tablet:mt-0 xs:mt-10"  data-aos="fade-left">
+          <p class="tablet:text-2xl xs:text-lg font-bold tablet:mb-0 xs:mb-5">New Business</p>
+          <p class="tablet:text-4xl xs:text-2xl font-bold border-b border-white">email@example.com</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- end -->
+
+  <div class="w-full bg-black flex flex-col justify-center items-center">
+    <div class="w-full bg-black flex flex-col justify-center items-center">
+      <div class="w-11/12 tablet:60vh xs:h-55vh text-white laptop:text-4xl xs:text-2xl font-bold relative"  data-aos="fade-right">
+        <p class="mb-8 border-b border-white absolute bottom-60">Our Work</p>
+        <p class="mb-8 border-b border-white absolute bottom-40">Our Services</p>
+        <p class="mb-8 border-b border-white absolute bottom-20">Company</p>
+        <p class="mb-8 border-b border-white absolute bottom-0">Contact</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init()
+    screenWidth = screen.width
+    var prevScroll = 0
+    var navbar = document.getElementById('sticky')
+    var nav = document.getElementById('nav')
+
+    window.addEventListener('scroll', function () {
+      var scrollTop = window.scrollY
+      if (scrollTop > prevScroll) {
+        navbar.classList.add('hidden')
+      } else if (scrollTop < prevScroll) {
+        navbar.classList.remove('hidden')
+      }
+      if(screenWidth < 400){
+        if (scrollTop > 10) {
+          nav.classList.add('h-10vh')
+          nav.classList.remove('h-15vh')
+        } else {
+          nav.classList.remove('h-10vh')
+          nav.classList.add('h-15vh')
+        }
+      }
+      prevScroll = scrollTop
+    })
+
+    var secondNavv = document.getElementById('secondNav')
+    var secondNav = false
+    function openNav(){
+      if(secondNav === true){
+        secondNavv.classList.remove('h-full')
+        secondNavv.classList.add('h-0')
+        secondNav = false
+      } else {
+        secondNavv.classList.add('h-full')
+        secondNavv.classList.remove('h-0')
+        secondNav = true
+      }
+    }
+
+  </script>
+</body>
+
+</html>
